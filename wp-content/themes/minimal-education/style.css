@@ -1,0 +1,196 @@
+/*
+Theme Name: Minimal Education
+Theme URI: https://www.ovationthemes.com/wordpress/free-minimal-education-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Minimal Education theme is ideal for various education based websites like for Primary Schools, university, enlightenment, e-learning, arts & crafts classes, knowledge, scholarship, learning management system, workshop, School uniform making, Stationery business, Colleges, Software Training institute, courses, college, teaching, Secondary Schools, Kindergartens, lms based website, compatible with learnpress, Coaching centres, preschool, Online Classes, tutoring, course hub, digital skills development center, Competitive exams, home tutor, litracy program, academy, Online Classes and High Schools, It also fits perfectly for any tuition, marketing, book selling, udemy, daycare, online learning program, distance learning, literacy, schooling,blogging or any kind of educational institution. The theme has an elegant and sophisticated design. It is user-friendly with a lot of customization and personalization options. The responsive layout makes it mobile-friendly as it fits well with all devices screen sizes. It is translation-ready with support for RTL layout. Also, you can add shortcodes. Based on bootstrap framework which makes it handy to use. Option available to integrate social media pages.
+Version: 4.5
+Requires PHP: 5.6
+Tested up to: 6.3
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: minimal-education
+Template: education-insight
+Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, flexible-header, featured-image-header, footer-widgets, threaded-comments, wide-blocks, blog, post-formats, education, e-commerce
+
+Minimal Education WordPress Theme, Copyright 2022 pewilliams
+Minimal Education is distributed under the terms of the GNU GPL
+
+Minimal Education WordPress Theme is child theme of Education Insight WordPress Theme, Copyright 2022 pewilliams
+Education Insight WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+/*breadcrumb*/
+.bread_crumb a:hover,.bread_crumb span ,.woocommerce-breadcrumb a:hover{
+    color:#01b509 !important;
+}
+.page-template-custom-home-page .fixed .logo{
+    background: transparent;
+}
+/*post-format*/
+.entry-content .quotepost p{
+    color: #01b509;
+}
+#Category-section pre.wp-block-verse{
+    border: 5px solid black !important;
+    color:#01b509;   
+}
+/*scrollup*/
+.scrollup{
+    background: #01b509 !important;
+}
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+.top_header {
+    background: #01b509;
+    text-align: left;
+}
+.links,.admision-btn {
+    text-align: right;
+}
+.links i,.top_header a{
+	margin: 0;
+}
+span.account {
+    margin-left: 15px;
+}
+.links i.fab.fa-twitter {
+    background: #288dc5;
+}
+.logo {
+    text-align: left;
+    position: static;
+    padding: 0;
+    width: auto;
+    border-radius: 0;
+    background: transparent;
+}
+.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover {
+    color: #4c4c4c;
+    font-weight: bold;
+}
+.gb_nav_menu ul ul,.scrollup,.scrollup.is-active:hover, .scrollup.is-active:focus {
+    background: #01b509;
+}
+.site-info,
+.single-tags a:hover, .gb_nav_menu ul ul a:hover,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover{
+    background: #e98401;
+}
+#Category-section .postbox.smallpostimage:hover h3 a,a,#sidebar caption,#sidebar td,#sidebar select,.site-footer .widget-area a:hover,a.showcoupon, .woocommerce-message::before {
+	color: #e98401;
+}
+.site-footer .tagcloud a:hover{
+	color: #fff;
+}
+.slide-btn{
+background: #e98401;
+display: inline-block;
+}
+p.wp-block-tag-cloud a:hover,.slide-btn:hover{
+    background: #01b509;
+}
+a.more-link:hover{
+    background: #01b509;
+}
+.woocommerce-message {
+    border-top-color: #01b509;
+}
+.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,button, input[type="button"], input[type="submit"],.site-footer .search-form .search-submit,.prev.page-numbers, .next.page-numbers,.page-numbers.current,button.search-submit,nav.woocommerce-MyAccount-navigation ul li,a.more-link,.home-btn a{
+    background: #01b509;
+}
+#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon {
+    background: #01b509;
+}
+.admision-btn a {
+    padding: 15px;
+    background: #e98401;
+    color: #fff;
+}
+.admision-btn {
+    margin: 15px 0;
+}
+.admision-btn a:hover{
+	background: #01b509;
+}
+hr.down {
+    background-color: #e98401;
+}
+.top_header i:hover {
+    color: #000;
+}
+
+@media screen and (max-width: 720px) and (min-width: 320px){
+    .logo{
+        padding: 15px 0;
+    }
+    .top_header,.links,.admision-btn,
+    .logo,#slider .inner_carousel h2 {
+        text-align: center;
+    }
+    #slider .carousel-caption{
+        right: 15%;
+    }
+    #slider .inner_carousel p{
+        display: none;
+    }
+    footer#colophon {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px)  {
+    #slider .carousel-caption{
+      right: 30%;
+    }
+    .gb_nav_menu ul ul{
+        background: transparent !important;
+    }
+}
+@media screen and (max-width: 800px){
+    .fixed_header.fixed{
+        background: transparent !important;
+    }
+}
